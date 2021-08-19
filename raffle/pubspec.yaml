@@ -33,6 +33,7 @@ dependencies:
   vrouter: ^1.2.0+11
   google_fonts: ^2.1.0
   responsive_framework: ^0.1.4
+  dartz: ^0.10.0
 
 dev_dependencies:
   flutter_test:
