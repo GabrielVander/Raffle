@@ -30,6 +30,7 @@ dependencies:
   cupertino_icons: ^1.0.3
   flutter_i18n: ^0.30.0
   flutter_bloc: ^7.1.0
+  vrouter: ^1.2.0+11
 
 dev_dependencies:
   flutter_test:
