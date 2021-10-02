@@ -1,6 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:raffle/generated/assets.dart';
 
 import 'fitness_app_theme.dart';
 import 'hex_color.dart';
@@ -82,8 +83,8 @@ class MediterraneanDietView extends StatelessWidget {
                                         SizedBox(
                                           width: 28,
                                           height: 28,
-                                          child: Image.asset(
-                                              "assets/images/eaten.png"),
+                                          child:
+                                              Image.asset(Assets.imagesEaten),
                                         ),
                                         Padding(
                                           padding: const EdgeInsets.only(
@@ -169,8 +170,8 @@ class MediterraneanDietView extends StatelessWidget {
                                         SizedBox(
                                           width: 28,
                                           height: 28,
-                                          child: Image.asset(
-                                              "assets/images/burned.png"),
+                                          child:
+                                              Image.asset(Assets.imagesBurned),
                                         ),
                                         Padding(
                                           padding: const EdgeInsets.only(

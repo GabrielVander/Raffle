@@ -1,6 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:raffle/generated/assets.dart';
 import 'package:vector_math/vector_math.dart' as vector;
 
 import 'fitness_app_theme.dart';
@@ -245,7 +246,7 @@ class _WaveViewState extends State<WaveView> with TickerProviderStateMixin {
               children: <Widget>[
                 AspectRatio(
                   aspectRatio: 1,
-                  child: Image.asset("assets/images/bottle.png"),
+                  child: Image.asset(Assets.imagesBottle),
                 ),
               ],
             )

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:raffle/generated/assets.dart';
 
 import '../fitness_app_theme.dart';
 import 'hex_color.dart';
@@ -63,7 +64,7 @@ class GlassView extends StatelessWidget {
                   child: SizedBox(
                     width: 80,
                     height: 80,
-                    child: Image.asset("assets/images/glass.png"),
+                    child: Image.asset(Assets.imagesGlass),
                   ),
                 )
               ],
