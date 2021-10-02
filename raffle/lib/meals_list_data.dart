@@ -1,3 +1,5 @@
+import 'package:raffle/generated/assets.dart';
+
 class MealsListData {
   MealsListData({
     this.imagePath = '',
@@ -17,7 +19,7 @@ class MealsListData {
 
   static List<MealsListData> tabIconsList = <MealsListData>[
     MealsListData(
-      imagePath: 'assets/images/breakfast.png',
+      imagePath: Assets.imagesBreakfast,
       titleTxt: 'Breakfast',
       kacl: 525,
       meals: <String>['Bread,', 'Peanut butter,', 'Apple'],
@@ -25,7 +27,7 @@ class MealsListData {
       endColor: '#FFB295',
     ),
     MealsListData(
-      imagePath: 'assets/images/lunch.png',
+      imagePath: Assets.imagesLunch,
       titleTxt: 'Lunch',
       kacl: 602,
       meals: <String>['Salmon,', 'Mixed veggies,', 'Avocado'],
@@ -33,14 +35,14 @@ class MealsListData {
       endColor: '#5C5EDD',
     ),
     MealsListData(
-      imagePath: 'assets/images/snack.png',
+      imagePath: Assets.imagesSnack,
       titleTxt: 'Snack',
       meals: <String>['Recommend:', '800 kcal'],
       startColor: '#FE95B6',
       endColor: '#FF5287',
     ),
     MealsListData(
-      imagePath: 'assets/images/dinner.png',
+      imagePath: Assets.imagesDinner,
       titleTxt: 'Dinner',
       meals: <String>['Recommend:', '703 kcal'],
       startColor: '#6F72CA',

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:raffle/generated/assets.dart';
 import 'package:raffle/wave_view.dart';
 
 import 'fitness_app_theme.dart';
@@ -158,8 +159,7 @@ class _WaterViewState extends State<WaterView> with TickerProviderStateMixin {
                                   SizedBox(
                                     width: 24,
                                     height: 24,
-                                    child:
-                                        Image.asset('assets/images/bell.png'),
+                                    child: Image.asset(Assets.imagesBell),
                                   ),
                                   Flexible(
                                     child: Text(
